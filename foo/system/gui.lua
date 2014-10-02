@@ -5,7 +5,7 @@ slc = 0
 dbbgcol = 8
 dbtxtcol = 1
 bgcolor = 1
-bgpath = "/images/bg"
+bgpath = "/Synt-OS/images/bg"
 
 -- Functions
 
@@ -109,7 +109,7 @@ function customize()
 	drawDesktop()
 	drawDeskbar("Customize")
 
-	drawWindowBack(128,"/images/128.nfp")
+	drawWindowBack(128,"/Synt-OS/images/128.nfp")
 	term.setBackgroundColor(128)
 	term.setTextColor(1)
 	term.setCursorPos(3,3)
@@ -131,22 +131,22 @@ function run(prog)
 		
 	elseif prog == "shell" then
 		term.clear()
-		dofile ("/programs/shell")
+		dofile ("/Synt-OS/programs/shell")
 	end
 end
 
 function LuaIDE()
-	dofile ("/programs/LuaIDE")
+	dofile ("/Synt-OS/programs/LuaIDE")
 
 end
 
 function NPaintPro()
-	dofile ("/programs/NPaintPro")
+	dofile ("/Synt-OS/programs/NPaintPro")
 
 end
 
 function LemonFileManager()
-	dofile("/programs/LFM")
+	dofile("/Synt-OS/programs/LFM")
 
 end
 
@@ -157,7 +157,7 @@ function glassmail()
 	term.setCursorPos(1,1)
 	term.clear()
 	drawDeskbar()
-	dofile("/programs/Email")
+	dofile("/Synt-OS/programs/Email")
 
 	end
 	

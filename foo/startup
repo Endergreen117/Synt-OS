@@ -1,0 +1,6 @@
+stbg = paintutils.loadImage("/Synt-OS/images/Startup.nfp")
+paintutils.drawImage(stbg,1,1)
+
+sleep(3)
+
+dofile("/Synt-OS/system/gui.lua")
