@@ -5,7 +5,7 @@ slc = 0
 dbbgcol = 8
 dbtxtcol = 1
 bgcolor = 1
-bgpath = "bg"
+bgpath = "/images/bg"
 
 -- Functions
 
@@ -49,16 +49,16 @@ function drawDeskbarMenu()
   print("------------")
   term.setCursorPos(1,7)
   print(" LuaIDE     ")
-	term.setCursorPos(1,8)
-	print(" NPaintPro  ")
-	term.setCursorPos(1,9)
-	print(" Lemon File ")
-	term.setCursorPos(1,10)
-	print(" /////////  ")
-	term.setCursorPos(1,11)
-	print(" Glass Mail ")
-	term.setCursorPos(1,12)
-	print("            ")
+  term.setCursorPos(1,8)
+  print(" NPaintPro  ")
+  term.setCursorPos(1,9)
+  print(" Lemon File ")
+  term.setCursorPos(1,10)
+  print(" /////////  ")
+  term.setCursorPos(1,11)
+  print(" Glass Mail ")
+  term.setCursorPos(1,12)
+  print("            ")
 
 end
 
@@ -109,7 +109,7 @@ function customize()
 	drawDesktop()
 	drawDeskbar("Customize")
 
-	drawWindowBack(128,"128.nfp")
+	drawWindowBack(128,"/images/128.nfp")
 	term.setBackgroundColor(128)
 	term.setTextColor(1)
 	term.setCursorPos(3,3)
