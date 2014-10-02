@@ -1,0 +1,6 @@
+stbg = paintutils.loadImage("/Startup.nfp")
+paintutils.drawImage(stbg,1,1)
+
+sleep(3)
+
+dofile("gui.lua")
